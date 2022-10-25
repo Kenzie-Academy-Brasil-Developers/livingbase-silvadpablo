@@ -11,12 +11,13 @@
   --color-brand-1: #087f5b;
   --color-brand-2: #099268;
   
+  --font-family: 'Inter', sans-serif;
   --font-size-1: 2.5rem;
   --font-size-2: 1.75rem;
   --font-size-3: 1.25rem;
   --font-size-4: 1rem;
-  --font-weight-bold: 600;
-  --font-weight-semi: 500;
+  --font-weight-bold: 700;
+  --font-weight-semi: 600;
   --font-weight-regular: 400;
   --font-height: 150%;
 
@@ -25,4 +26,12 @@
   --btn-padding: 0px 22px;
   
   --icon-radius: 100%;
+}
+
+body {
+  font-family: var(--font-family);
+  line-height: var(--font-height);
+  font-size: var(--font-size-4);
+  font-weight: var(--font-weight-regular);
+  color: var(--color-grey-1);
 }

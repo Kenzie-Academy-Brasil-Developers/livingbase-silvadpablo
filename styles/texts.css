@@ -1,1 +1,37 @@
-    
+.home-living {
+    font-size: var(--font-size-2);
+    font-weight: var(--font-weight-bold);
+}
+
+.home-post-title {
+    font-size: var(--font-size-1);
+    font-weight: var(--font-weight-semi);
+}
+
+.home-title span {
+    color: var(--color-brand-1);
+}
+
+.home-consume {
+    font-weight: var(--font-weight-semi);
+}
+
+.home-post-title {
+    font-size: var(--font-size-3);
+    font-weight: var(--font-weight-semi);
+}
+
+.home-access {
+    font-weight: var(--font-weight-semi);
+    color: var(--color-brand-1);
+}
+
+.footer-living {
+    font-size: var(--font-size-2);
+    font-weight: var(--font-weight-bold);
+    color: var(--color-grey-7);
+}
+
+.footer-text {
+    color: var(--color-grey-4);
+}
