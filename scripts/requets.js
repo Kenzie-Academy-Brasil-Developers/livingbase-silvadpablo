@@ -15,7 +15,6 @@ export async function getAllPosts () {
         console.log(error)
     }
 }
-console.log(await getAllPosts())
 
 export async function getPostById (postId) {
     try {
