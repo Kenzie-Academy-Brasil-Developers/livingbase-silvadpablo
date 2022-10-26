@@ -36,8 +36,10 @@ main {
 
 .post img {
     margin-bottom: 8px;
-    object-fit: contain;
+    object-fit: cover;
     object-position: center;
+    max-width: 548px;
+    max-height: 172px;
 }
 
 .obs {

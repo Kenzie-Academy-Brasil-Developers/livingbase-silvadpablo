@@ -22,10 +22,15 @@
     font-weight: var(--font-weight-semi);
 }
 
+.post-headline {
+    color: var(--color-grey-2);
+}
+
 .home-access {
     font-weight: var(--font-weight-semi);
     color: var(--color-brand-1);
     text-decoration: none;
+    cursor: pointer;
 }
 
 .footer-living {
