@@ -4,9 +4,44 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../styles/reset.css">
+    <link rel="stylesheet" href="../../styles/globalStyles.css">
+    <link rel="stylesheet" href="../../styles/displays.css">
+    <link rel="stylesheet" href="../../styles/texts.css">
+    <link rel="stylesheet" href="../../styles/buttons.css">
+    <link rel="stylesheet" href="./index.css">
     <title>Living</title>
 </head>
 <body>
-    <main></main>
+    <header class="container flex items-center justify-between">
+        <div class="flex items-center">
+            <div class="living-icon living-icon-post"></div>
+            <h2 class="home-living">Living</h2>
+        </div>
+        <button class="btn">Home</button>
+    </header>
+    <main>
+        <header class="flex flex-col post-header">
+            <h1 class="container home-post-header-title">TÍTULO DO POST</h1>
+            <p class="container post-text">HEADLINE DO POST</p>
+        </header>
+        <div class="container">
+            <img class="post-img-big" src="../../assets/imgs/img-post.png" alt="">
+            <p class="post-text">POST CONTENT</p>
+        </div>
+        <ul class="categories flex">
+                <li><button class="btn btn-grey">Todos</button></li>
+        </ul>
+    </main>
+    <footer>
+        <div class="container flex items-center justify-between">
+            <div class="flex items-center">
+                <div class="living-icon icon-footer"></div>
+                <h2>Living</h2>
+            </div>
+            <p>INFORMAÇÃO SOBRE O POST</p>
+            <button class="btn btn-grey-dark">Voltar para o topo</button>
+        </div>
+    </footer>
 </body>
 </html>
