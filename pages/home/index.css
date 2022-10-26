@@ -1,1 +1,48 @@
-/* Desenvolva seu estilo aqui */
+header {
+    gap: 132px;
+    padding-top: 75px;
+}
+
+.header-title-text {
+    gap: 24px;
+}
+
+main {
+    padding-top: 74px;
+    gap: 46px;
+    padding-bottom: 74px;
+}
+
+.all-posts {
+    gap: 44px;
+}
+
+.post {
+    width: 46%;
+    gap: 16px;
+}
+
+.post img {
+    margin-bottom: 8px;
+    object-fit: contain;
+    object-position: center;
+}
+
+.obs {
+    background-color: var(--color-grey-5);
+    height: 25px;
+}
+
+.top-div {
+    height: 172px;
+    margin-bottom: 8px;
+}
+
+.middle-lines {
+    border-radius: 4px;
+}
+
+.bottom-line {
+    border-radius: 4px;
+    width: 30%;
+}

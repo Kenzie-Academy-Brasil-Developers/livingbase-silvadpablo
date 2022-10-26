@@ -3,12 +3,13 @@
     font-weight: var(--font-weight-bold);
 }
 
-.home-post-title {
+.home-post-header-title {
     font-size: var(--font-size-1);
     font-weight: var(--font-weight-semi);
+    line-height: var(--font-height);
 }
 
-.home-title span {
+.home-post-header-title span {
     color: var(--color-brand-1);
 }
 
@@ -24,6 +25,7 @@
 .home-access {
     font-weight: var(--font-weight-semi);
     color: var(--color-brand-1);
+    text-decoration: none;
 }
 
 .footer-living {
