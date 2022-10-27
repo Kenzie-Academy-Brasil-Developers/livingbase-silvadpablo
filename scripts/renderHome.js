@@ -1,16 +1,16 @@
 import { getAllPosts } from "./requets.js";
+let ulPosts = document.querySelector(".all-posts")
 
-async function renderAllPosts () {
-    let ulPosts = document.querySelector(".all-posts")
+export async function renderAllPosts (element, position) {
 
-    let allPosts = await getAllPosts()
+    let allPosts = await getAllPosts(0)
     
-    allPosts.forEach(eachPost => {
+    allPosts.news.forEach(eachPost => {
         let {id, title, description, image, category} = eachPost
 
         let liPosts = document.createElement("li")
         liPosts.classList = "post flex flex-col"
-        ulPosts.insertAdjacentElement("afterbegin", liPosts)
+        element.insertAdjacentElement(`${position}`, liPosts)
 
         let img = document.createElement("img")
         img.alt = "post image"
@@ -39,4 +39,4 @@ async function renderAllPosts () {
     })
 }
 
-renderAllPosts()
+renderAllPosts(ulPosts, "afterbegin")
