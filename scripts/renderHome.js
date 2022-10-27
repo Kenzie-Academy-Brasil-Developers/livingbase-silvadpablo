@@ -6,7 +6,7 @@ async function renderAllPosts () {
     let allPosts = await getAllPosts()
     
     allPosts.forEach(eachPost => {
-        let {title, description, image, category} = eachPost
+        let {id, title, description, image, category} = eachPost
 
         let liPosts = document.createElement("li")
         liPosts.classList = "post flex flex-col"
@@ -33,6 +33,7 @@ async function renderAllPosts () {
         liPosts.append(a)
 
         a.addEventListener("click", () => {
+            localStorage.setItem("livingBasePost", id)
             window.location.replace("./pages/post/index.html")
         })
     })
