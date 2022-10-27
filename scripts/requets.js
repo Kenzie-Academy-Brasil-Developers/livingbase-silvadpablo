@@ -1,13 +1,13 @@
 const baseUrl = "https://m2-api-living.herokuapp.com/news"
 
-export async function getAllPosts () {
+export async function getAllPosts (page) {
     try {
-        const request = await fetch(`${baseUrl}?page=0`, {
+        const request = await fetch(`${baseUrl}?page=${page}`, {
             method: "GET",
         })
         if (request.ok){
             const allPosts = await request.json()
-            return allPosts.news
+            return allPosts
         } else {
             throw request
         }
