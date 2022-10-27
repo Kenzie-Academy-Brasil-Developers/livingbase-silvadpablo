@@ -38,6 +38,7 @@
     border-radius: var(--btn-radius);
     padding: var(--btn-padding);
     border: none;
+    cursor: pointer;
 }
 
 .btn-grey {

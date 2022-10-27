@@ -18,30 +18,26 @@
             <div class="living-icon living-icon-post"></div>
             <h2 class="home-living">Living</h2>
         </div>
-        <button class="btn">Home</button>
+        <button class="btn btn-home">Home</button>
     </header>
     <main>
-        <header class="flex flex-col post-header">
-            <h1 class="container home-post-header-title">TÍTULO DO POST</h1>
-            <p class="container post-text">HEADLINE DO POST</p>
-        </header>
-        <div class="container">
-            <img class="post-img-big" src="../../assets/imgs/img-post.png" alt="">
-            <p class="post-text">POST CONTENT</p>
-        </div>
+        <header class="flex flex-col post-header"></header>
+        <div class="container post-body"></div>
         <ul class="categories flex">
                 <li><button class="btn btn-grey">Todos</button></li>
         </ul>
     </main>
     <footer>
-        <div class="container flex items-center justify-between">
+        <div class="container flex items-center justify-around">
             <div class="flex items-center">
                 <div class="living-icon icon-footer"></div>
                 <h2>Living</h2>
             </div>
-            <p>INFORMAÇÃO SOBRE O POST</p>
-            <button class="btn btn-grey-dark">Voltar para o topo</button>
+            <p class="footer-text">The passage experienced a surge in popularity during the 1960s when Letraset used it on their dry-transfer sheets, and again during the 90s as desktop publishers bundled the text with their software.</p>
+            <button class="btn btn-grey-dark btn-footer">Voltar para o topo</button>
         </div>
     </footer>
+    <script type="module" src="../../scripts/renderPost.js"></script>
+    <script type="module" src="./index.js"></script>
 </body>
 </html>

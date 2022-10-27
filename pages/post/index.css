@@ -41,3 +41,9 @@ footer {
 .icon-footer {
     margin-bottom: 0;
 }
+
+.btn-footer {
+    min-width: 182px;
+    max-height: 38px;
+    margin-left: 225px;
+}
