@@ -19,6 +19,7 @@ main {
     gap: 20px;
     margin: 0 auto;
     scrollbar-width: none;
+    padding-bottom: 46px;
 }
 
 .categories::-webkit-scrollbar {
@@ -27,6 +28,7 @@ main {
 
 .all-posts {
     gap: 44px;
+    margin-bottom: 44px;
 }
 
 .post {
@@ -47,6 +49,13 @@ main {
     height: 25px;
 }
 
+.observed img {
+    margin-bottom: 8px;
+    object-fit: cover;
+    object-position: center;
+    max-width: 548px;
+    max-height: 172px;
+}
 .top-div {
     height: 172px;
     margin-bottom: 8px;
@@ -59,4 +68,8 @@ main {
 .bottom-line {
     border-radius: 4px;
     width: 30%;
+}
+
+.watched {
+    gap: 46px;
 }
