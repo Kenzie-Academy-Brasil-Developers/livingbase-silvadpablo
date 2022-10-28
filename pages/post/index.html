@@ -4,9 +4,48 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../styles/reset.css">
+    <link rel="stylesheet" href="../../styles/globalStyles.css">
+    <link rel="stylesheet" href="../../styles/displays.css">
+    <link rel="stylesheet" href="../../styles/texts.css">
+    <link rel="stylesheet" href="../../styles/buttons.css">
+    <link rel="stylesheet" href="./index.css">
     <title>Living</title>
 </head>
 <body>
-    <main></main>
+    <header class="container flex items-center justify-between">
+        <div class="flex items-center">
+            <div class="living-icon living-icon-post"></div>
+            <h2 class="home-living">Living</h2>
+        </div>
+        <button class="btn btn-home">Home</button>
+    </header>
+    <main>
+        <header class="flex flex-col post-header"></header>
+        <div class="container post-body"></div>
+        <ul class="categories flex">
+            <li><button class="btn btn-grey tag tagAll">Todos</button></li>
+            <li><button class="btn btn-grey tag">Pintura</button></li>
+            <li><button class="btn btn-grey tag">Decoração</button></li>
+            <li><button class="btn btn-grey tag">Organização</button></li>
+            <li><button class="btn btn-grey tag">Limpeza</button></li>
+            <li><button class="btn btn-grey tag">Segurança</button></li>
+            <li><button class="btn btn-grey tag">Reforma</button></li>
+            <li><button class="btn btn-grey tag">Aromas</button></li>
+            <button class="arrow-icon"></button>
+        </ul>
+    </main>
+    <footer>
+        <div class="container flex items-center justify-around">
+            <div class="flex items-center">
+                <div class="living-icon icon-footer"></div>
+                <h2>Living</h2>
+            </div>
+            <p class="footer-text">The passage experienced a surge in popularity during the 1960s when Letraset used it on their dry-transfer sheets, and again during the 90s as desktop publishers bundled the text with their software.</p>
+            <button class="btn btn-grey-dark btn-footer">Voltar para o topo</button>
+        </div>
+    </footer>
+    <script type="module" src="../../scripts/renderPost.js"></script>
+    <script type="module" src="./index.js"></script>
 </body>
 </html>

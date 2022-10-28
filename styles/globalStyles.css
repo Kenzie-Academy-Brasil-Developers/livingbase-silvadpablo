@@ -23,7 +23,7 @@
 
   --btn-radius: 32px;
   --btn-border: none;
-  --btn-padding: 0px 22px;
+  --btn-padding: 7px 22px;
   
   --icon-radius: 100%;
 }
@@ -34,4 +34,9 @@ body {
   font-size: var(--font-size-4);
   font-weight: var(--font-weight-regular);
   color: var(--color-grey-1);
+}
+
+.container {
+  margin: 0px auto;
+  width: 80%;
 }
